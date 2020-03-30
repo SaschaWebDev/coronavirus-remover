@@ -1,0 +1,6 @@
+{
+  "name": "Coronavirus Remover",
+  "version": "1.0",
+  "description": "A chrome extension that deletes coronavirus... at least the clarification box about it under your youtube videos.",
+  "manifest_version": 2
+}
