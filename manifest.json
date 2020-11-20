@@ -1,0 +1,18 @@
+{
+  "name": "Coronavirus Remover",
+  "version": "1.0",
+  "description": "A chrome extension that removes coronavirus... at least the clarification-box about it under your YouTube videos.",
+  "manifest_version": 2,
+  "icons": {
+    "16": "images/logo_16.png",
+    "48": "images/logo_48.png",
+    "128": "images/logo_128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["js/contentScript.js"]
+    }
+  ],
+  "permissions": ["tabs"]
+}
